@@ -1,0 +1,26 @@
+{
+  "name": "salt-jsfs-testCallbackCalculator",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "lint": "eslint --fix .",
+    "pretest": "npm run lint",
+    "test": "mocha --reporter min ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saltsthlm/salt-jsfs-testCallbackCalculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saltsthlm/salt-jsfs-testCallbackCalculator/issues"
+  },
+  "homepage": "https://github.com/saltsthlm/salt-jsfs-testCallbackCalculator#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-salt": "^1.0.1",
+    "mocha": "^7.1.2"
+  }
+}
